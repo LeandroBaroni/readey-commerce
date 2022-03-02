@@ -14,12 +14,17 @@ import { HomeComponent } from './layouts/home/home.component';
 import { SidebarComponent } from './layouts/sidebar/sidebar.component';
 import { TopbarComponent } from './layouts/topbar/topbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SettingsComponent } from './pages/settings/settings.component';
+import { SearchBoxComponent } from './forms/search-box/search-box.component';
+import { IonicModule } from '@ionic/angular';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     SidebarComponent,
-    TopbarComponent
+    TopbarComponent,
+    SettingsComponent,
+    SearchBoxComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +35,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatIconModule,
     MatDividerModule,
     MatListModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    IonicModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

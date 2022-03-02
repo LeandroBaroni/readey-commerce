@@ -1,7 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+
 import { DashboardComponent } from './layouts/dashboard/dashboard.component';
 import { HomeComponent } from './layouts/home/home.component';
+import { SettingsComponent } from './pages/settings/settings.component';
 
 const routes: Routes = [
   {
@@ -14,6 +16,9 @@ const routes: Routes = [
   },
   {
     path: 'dashboard', component:DashboardComponent
+  },
+  {
+    path: 'settings', component:SettingsComponent
   }
 ]
 
