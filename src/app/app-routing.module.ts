@@ -1,3 +1,5 @@
+import { UserCreateComponent } from './pages/user/user-create/user-create.component';
+import { UserListComponent } from './pages/user/user-list/user-list.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
@@ -19,6 +21,12 @@ const routes: Routes = [
   },
   {
     path: 'settings', component:SettingsComponent
+  },
+  {
+    path: 'user/user-list', component:UserListComponent
+  },
+  {
+    path: 'user/user-create', component:UserCreateComponent
   }
 ]
 

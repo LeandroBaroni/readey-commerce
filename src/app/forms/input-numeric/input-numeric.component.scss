@@ -1,0 +1,30 @@
+.choose-quantity{
+  padding: 5px;
+}
+
+.left-icon{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  left: 15px;
+  top: 32px;
+  float: left;
+}
+
+.right-icon{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  right: 15px;
+  bottom: 25px;
+  float: right;
+}
+
+.title{
+  position: relative;
+  left: -12px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(23, 29, 193);
+  font-size: 23px;
+  margin-bottom: 10px;
+}

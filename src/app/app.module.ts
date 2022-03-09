@@ -17,6 +17,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SettingsComponent } from './pages/settings/settings.component';
 import { SearchBoxComponent } from './forms/search-box/search-box.component';
 import { IonicModule } from '@ionic/angular';
+import { PreloaderComponent } from './shared/ui/preloader/preloader.component';
+import { UserListComponent } from './pages/user/user-list/user-list.component';
+import { UserCreateComponent } from './pages/user/user-create/user-create.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { InputNumericComponent } from './forms/input-numeric/input-numeric.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +31,11 @@ import { IonicModule } from '@ionic/angular';
     SidebarComponent,
     TopbarComponent,
     SettingsComponent,
-    SearchBoxComponent
+    SearchBoxComponent,
+    PreloaderComponent,
+    UserListComponent,
+    UserCreateComponent,
+    InputNumericComponent,
   ],
   imports: [
     BrowserModule,
@@ -36,7 +47,10 @@ import { IonicModule } from '@ionic/angular';
     MatDividerModule,
     MatListModule,
     BrowserAnimationsModule,
-    IonicModule.forRoot()
+    IonicModule.forRoot(),
+    FontAwesomeModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
