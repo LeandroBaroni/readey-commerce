@@ -23,6 +23,7 @@ import { UserCreateComponent } from './pages/user/user-create/user-create.compon
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { InputNumericComponent } from './forms/input-numeric/input-numeric.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { InputSearchboxComponent } from './forms/input-searchbox/input-searchbox.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     UserListComponent,
     UserCreateComponent,
     InputNumericComponent,
+    InputSearchboxComponent,
   ],
   imports: [
     BrowserModule,
