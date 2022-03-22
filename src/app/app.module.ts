@@ -24,6 +24,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { InputNumericComponent } from './forms/input-numeric/input-numeric.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { InputSearchboxComponent } from './forms/input-searchbox/input-searchbox.component';
+import { ScrollDownPageComponent } from './pages/scroll-down-page/scroll-down-page.component';
+import { PrincipleComponent } from './pages/layout/principle/principle.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +40,8 @@ import { InputSearchboxComponent } from './forms/input-searchbox/input-searchbox
     UserCreateComponent,
     InputNumericComponent,
     InputSearchboxComponent,
+    ScrollDownPageComponent,
+    PrincipleComponent,
   ],
   imports: [
     BrowserModule,
