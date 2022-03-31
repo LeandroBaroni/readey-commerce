@@ -1,0 +1,8 @@
+<div class="console">
+  <div class="div-title" *ngIf="!recording">
+    <button class="btn btn-outline-primary btn-rounded device-status" (click)="record()">Gravar</button>
+  </div>
+  <div class="div-title" *ngIf="recording">
+    <button class="btn btn-outline-primary btn-rounded device-status" (click)="record()">Parar</button>
+  </div>
+</div>

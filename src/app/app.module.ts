@@ -26,6 +26,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { InputSearchboxComponent } from './forms/input-searchbox/input-searchbox.component';
 import { ScrollDownPageComponent } from './pages/scroll-down-page/scroll-down-page.component';
 import { PrincipleComponent } from './pages/layout/principle/principle.component';
+import { InputAudioRecorderComponent } from './forms/input-audio-recorder/input-audio-recorder.component';
+import { InputAudioRecorder2Component } from './forms/input-audio-recorder2/input-audio-recorder2.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +44,8 @@ import { PrincipleComponent } from './pages/layout/principle/principle.component
     InputSearchboxComponent,
     ScrollDownPageComponent,
     PrincipleComponent,
+    InputAudioRecorderComponent,
+    InputAudioRecorder2Component,
   ],
   imports: [
     BrowserModule,
